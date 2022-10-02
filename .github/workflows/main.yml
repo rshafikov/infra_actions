@@ -72,7 +72,7 @@ jobs:
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
-          key: ${{ secrets.SSH }}
+          key: ${{ secrets.SSH_KEY}}
           script: |
             # Выполняет pull образа с DockerHub
             #остановка всех контейнеров
